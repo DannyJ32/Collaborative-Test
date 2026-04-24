@@ -18,6 +18,13 @@ struct ContentView: View {
             anotherView()
             debug()
                 .offset(y: -350)
+            HStack {
+                Text("That is really cool!")
+                    .foregroundStyle(.green)
+                Image(systemName: "person")
+                    .imageScale(.small)
+                    .foregroundStyle(.green)
+            }
         }
         .padding()
     }
