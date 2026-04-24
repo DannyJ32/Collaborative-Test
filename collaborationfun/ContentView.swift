@@ -16,6 +16,8 @@ struct ContentView: View {
             Text("Collab!")
             Text("Hello !")
             anotherView()
+            debug()
+                .offset(y: -350)
         }
         .padding()
     }
