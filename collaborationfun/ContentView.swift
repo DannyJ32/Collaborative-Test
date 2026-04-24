@@ -16,6 +16,13 @@ struct ContentView: View {
             Text("Collab!")
             Text("Hello !")
             anotherView()
+            HStack {
+                Text("That is really cool!")
+                    .foregroundStyle(.green)
+                Image(systemName: "person")
+                    .imageScale(.small)
+                    .foregroundStyle(.green)
+            }
         }
         .padding()
     }
