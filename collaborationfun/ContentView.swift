@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.purple)
             Text("Collab!")
             Text("Hello !")
+            anotherView()
         }
         .padding()
     }
